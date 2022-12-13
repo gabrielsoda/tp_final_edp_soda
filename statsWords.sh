@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #Este es el primer ejercicio del TP final de EDP
+#Indicador de la palabra más corta, la más largar y el promedio de longitud.
 
 LARGA=0
 CORTA=100
