@@ -1,3 +1,3 @@
 #!/bin/bash
 
-#Este es el cuarto ejercicio del tp final de edp
+# Cuarto ejercicio del tp final de edp
