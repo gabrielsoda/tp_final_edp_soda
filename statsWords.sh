@@ -1,9 +1,7 @@
 #!/bin/bash
 
-#Este es el primer ejercicio del TP final de EDP
-<<<<<<< HEAD
-=======
-#Indicador de la palabra más corta, la más largar y el promedio de longitud.
+# Ejercicio 1 del TP FINAL de EDP:
+# Indicador de la palabra más corta, la más largar y el promedio de longitud.
 
 LARGA=0
 CORTA=100
@@ -31,4 +29,3 @@ done
 echo "La palabra más corta es: $CORTA_LIT"
 echo "La palabra más larga es: $LARGA_LIT"
 echo "El promedio de longitud de palabras es: $(($SUMA / $CANT))"
->>>>>>> ej1_statsWords

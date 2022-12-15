@@ -1,9 +1,6 @@
 #!/bin/bash
-<<<<<<< HEAD
-#Este es el tercer ejercicio del tp final de edp
-=======
 
-#Este es el tercer ejercicio del tp final de edp
+# Ejercicio 3 del TP FINAL de EDP:
 
 # Identificación de nombres propios (se identifican sólo si están en este formato
 # Nnnnnnnnn), aunque la palabra no sea un nombre propio realmente.
@@ -28,4 +25,3 @@ while read -r LINEA; do
 done < "$1"
 # Al poner "< $1" luego del done, expresamos que $1 es el nombre del archivo que 
 # queremos leer
->>>>>>> ej3_findNames

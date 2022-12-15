@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Este es el segundo ejercicio del tp final de edp
+# Ejercicio 2 del TP FINAL de EDP:
 # Indicador estadístico de uso de palabras, deben ser de al menos 4(cuatro)
 # letras. (mostrar un Top Ten de estas palabras ordenadas desde la que tiene
 # más apariciones a la que tiene menos). Es decir, filtrar las palabras que

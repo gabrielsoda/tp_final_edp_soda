@@ -1,9 +1,6 @@
 #!/bin/bash
 
-<<<<<<< HEAD
-#Este es el cuarto ejercicio del tp final de edp
-=======
-# Cuarto ejercicio del tp final de edp
+# Ejercicio 4 del TP FINAL de EDP:
 # Obtener la oración más larga, la más corta y el promedio de longitud.
 
 
@@ -44,4 +41,3 @@ echo "El promedio de caracteres de cada oración es: $longitud_promedio"
 echo "La oración más corta en el archivo es: $oracion_mas_corta"
 echo "La oración más larga en el archivo es: $oracion_mas_larga"
 
->>>>>>> ej4_statsSentences
