@@ -21,8 +21,10 @@ while read -r oracion_actual; do
   longitud_total=$((longitud_total + ${#oracion_actual}))
   # Si la línea actual es más corta que la oración anterior más corta,
   # actualizamos la variable "oracion_mas_corta" con la oración actual.
-  if [ -z "$oracion_mas_corta" ] || [ ${#oracion_actual} -lt ${#oracion_mas_corta} ]; then
-    oracion_mas_corta="$oracion_actual"
+  if [ ! -z "$oracion_actual" ]; then
+    if [ -z "$oracion_mas_corta" ] || [ ${#oracion_actual} -lt ${#oracion_mas_corta} ]; then
+      oracion_mas_corta="$oracion_actual"
+    fi
   fi
   # Si la línea actual es más larga que la oración anterior más larga,
   # actualizamos la variable "oracion_mas_larga" con la oración actual.
