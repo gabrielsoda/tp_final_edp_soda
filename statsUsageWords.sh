@@ -21,5 +21,5 @@ done
 # "sort -r" las ordenamos de mayor a menor pero ahora según el número de la cantidad de veces que aparecen
 # "head -n 10" mostramos las diez primeras
 
-cat palabras-4.txt | sort | uniq -c | sort -r | head -n 10
-rm palabras-4.txt
+cat palabras-ge4Letras.txt | sort | uniq -c | sort -r | head -n 10
+rm palabras-ge4Letras.txt

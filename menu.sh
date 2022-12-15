@@ -3,7 +3,7 @@
 
 echo "¿Qué herramienta quiere utilizar?"
 PS3='Elija >> '
-select ejercicio in "statsWords" "statsUsageWords" "findNames" "statsSentence" "blankLinesCounter" "SALIR"
+select ejercicio in "statsWords" "statsUsageWords" "findNames" "statsSentences" "blankLinesCounter" "SALIR"
 do
 	case $ejercicio in
 		statsWords)
@@ -15,8 +15,8 @@ do
 		findNames)
 			source ./findNames.sh
 			;;
-		statsSentence)
-			source ./statsSentence.sh
+		statsSentences)
+			source ./statsSentences.sh
 			;;
 		blankLinesCounter)
 			source ./blankLinesCounter.sh
