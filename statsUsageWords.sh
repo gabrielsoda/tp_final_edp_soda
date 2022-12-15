@@ -1,8 +1,5 @@
 #!/bin/bash
 
-<<<<<<< HEAD
-#Este es el segundo ejercicio del tp final de edp
-=======
 # Este es el segundo ejercicio del tp final de edp
 # Indicador estadístico de uso de palabras, deben ser de al menos 4(cuatro)
 # letras. (mostrar un Top Ten de estas palabras ordenadas desde la que tiene
@@ -26,4 +23,3 @@ done
 
 cat palabras-4.txt | sort | uniq -c | sort -r | head -n 10
 rm palabras-4.txt
->>>>>>> ej2_statsUsageWords
